@@ -1,0 +1,11 @@
+.formulario{
+    border: solid 2px black;
+    border-radius: 8px;
+    width: 420px;
+    height: 520px;
+    margin: auto;
+    padding: 10px;
+}
+.inicio{
+    background-color: bisque;
+}
