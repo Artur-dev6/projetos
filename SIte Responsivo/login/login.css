@@ -1,0 +1,57 @@
+@font-face {
+    font-family: bebas neue;
+    src: url(../fonts/Bebas_Neue/BebasNeue-Regular.ttf);
+}
+
+body {
+    font-size: 20px;
+    font-family: bebas neue;
+    background-color: rgb(201, 185, 185);
+}
+.formulario {
+    background-color: rgb(54, 54, 54);
+    color: white;
+    width: 500px;
+    padding: 40px;
+    margin: auto;
+    border: 3.5px solid rgb(4, 144, 251);
+    border-radius: 15px;
+}
+.tema {
+    text-align: center;
+    font-size: 60px;
+    color: rgba(40, 149, 233, 0.838);
+    padding-top: 10px;
+}
+#email, #senha, #nome, #sobrenome, #conf-senha {
+    display: block;
+    height: 25px;
+    width: 100%;
+    border: 3px solid rgba(40, 149, 233, 0.838);
+    margin-bottom: 15px;
+}
+.informacoes {
+    padding-top: 40px;
+}
+#entrar {
+    background-color: rgba(40, 149, 233, 0.838);
+    color: #ffff;
+    font-family: bebas neue;
+    font-size: 20px;
+    height: 25px;
+    width: 80px;
+    border-radius: 6px;
+}
+.cadastro, a{
+    color: aliceblue;
+    text-decoration: underline;
+    display: inline-block;
+    width: 329px;
+    text-align: right;
+}
+#entrar:hover, a:hover {
+    color: rgba(40, 149, 233, 0.838);
+    background-color: #ffff;
+    border-radius: 5px;
+    width: 80px;
+}
